@@ -1,7 +1,7 @@
 import math
 from typing import List
-from preprocessing import processing
-from timer import timer
+from engine.preprocessing import processing
+from engine.timer import timer
 
 class Indexing:
     def __init__(self) -> None:

@@ -6,17 +6,10 @@ Python 3.8 or greater and latest version of nltk, lxml, requests.
 
 If you want install all of them (except python) please run
 ```
-$ pip3 install -r requirements.txt  -- USING PYTHON
+$ pip3 install -r requirements.txt  -- USING PIP3
 $ bash requirements.sh              -- USING BASH
 ```
 execute program
 ```
 $ python run.py
 ```
-
-
-# Modules
-1. download (py)
-download wiki abstract xml data
-2. run (py)
-run program 

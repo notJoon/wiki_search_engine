@@ -1,6 +1,6 @@
 from collections import Counter
 from dataclasses import dataclass
-from preprocessing import processing
+from engine.preprocessing import processing
 
 @dataclass
 class Abstract:
@@ -14,7 +14,7 @@ class Abstract:
     def text(self) -> None:
         return ' '.join([self.title, self.abstract])
 
-    def process(self) -> None:
+    def processing(self) -> None:
         self.term_freq = Counter(processing(self.text))
 
     def term_frequency(self, term: str) -> int:
